@@ -3,7 +3,7 @@
 
 int main() {
     int a;
-    sacnf("%d",a);
+    sacnf("%d",&a);
     printf("You entered: %d",a);
     return 0;
 }
