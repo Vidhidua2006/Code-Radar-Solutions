@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
+    float a,b,c;
     float average;
     scanf("%f %f %f", &a,&b,&c);
     average=(a+b+c)/3.0;
