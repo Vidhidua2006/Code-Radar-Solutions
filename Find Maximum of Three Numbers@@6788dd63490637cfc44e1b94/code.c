@@ -12,5 +12,7 @@ int main() {
    else if(c>a&&c>b){
     printf("%d",c);
    }
+   return 0;
+}
     return 0;
 }
