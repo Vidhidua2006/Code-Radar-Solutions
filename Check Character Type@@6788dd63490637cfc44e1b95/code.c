@@ -8,15 +8,14 @@ int main() {
             printf("vowels");
         }
         else{
-            printf("consonant")
+            printf("consonant");
         }
-   else if(ch>='0'&& ch<='9'){
-    printf("Digit");
-   }
-   else{
-    printf("Special Character");
-   }
-   }
-   }
+    else if(ch>='0'&& ch<='9'){
+        printf("Digit");
+    }
+    else{
+        printf("Special Character");
+    }
+
     return 0;
 }
