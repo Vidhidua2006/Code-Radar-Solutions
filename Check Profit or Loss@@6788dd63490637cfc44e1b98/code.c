@@ -9,7 +9,7 @@ int main() {
     else if(selling_price>cost_price){
         printf("Loss");
     }
-    else if(cost_price=selling_price){
+    else if(cost_price==selling_price){
         printf("No Profit No Loss");
     }   
     return 0;
