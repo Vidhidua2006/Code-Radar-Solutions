@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
    char ch;
-   vowels="aeiouAEIOU";
+    char vowels="aeiouAEIOU";
    scanf("%c",&ch);
    if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z')){
         if(ch==vowels){
