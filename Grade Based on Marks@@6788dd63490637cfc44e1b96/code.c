@@ -2,6 +2,7 @@
 
 int main() {
     int grade;
+    scanf("%d",&grade);
     if(grade>=90){
         printf("A");
     }
@@ -14,7 +15,6 @@ int main() {
     else if(grade>=60 && grade<70){
         printf("D");
     }
-
     else if (grade<60){
         printf("F");
     }
