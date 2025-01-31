@@ -6,11 +6,14 @@ int main() {
     if(cost_price<selling_price){
         printf("Profit");
     }
-    else if(selling_price>cost_price){
+    else if(selling_price<cost_price){
         printf("Loss");
     }
     else if(cost_price==selling_price){
         printf("No Profit No Loss");
     }   
+    else{
+        printf("Invalid");
+    }
     return 0;
 }
