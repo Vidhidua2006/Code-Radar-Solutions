@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include<string.h>
 int main() {
    char ch;
+   vowels="aeiouAEIOU";
    scanf("%c",&ch);
    if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z')){
-        if(ch==strch("aeiouAEIOU",ch)){
+        if(ch==vowels){
             printf("Vowel");
         }
         else{
