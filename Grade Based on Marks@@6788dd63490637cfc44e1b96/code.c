@@ -15,8 +15,11 @@ int main() {
         printf("D");
     }
 
-    else{
+    else if (grade<60){
         printf("F");
+    }
+    else{
+        printf("Invalid");
     }
     return 0;
 }
