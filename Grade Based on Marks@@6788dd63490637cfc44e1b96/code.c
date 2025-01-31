@@ -11,7 +11,7 @@ int main() {
     else if(grade>=70 && grade<80){
         printf("C");
     }    
-    else if(grade<=60 && grade<70){
+    else if(grade>=60 && grade<70){
         printf("D");
     }
 
