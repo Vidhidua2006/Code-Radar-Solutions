@@ -5,10 +5,10 @@ int main() {
    scanf("%c",&ch);
    if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')){
         if(ch==strch("aeiouAEIOU",ch)){
-            printf("vowel");
+            printf("Vowel");
         }
         else{
-            printf("consonant");
+            printf("Consonant");
         }
    }
     else if(ch>='0'&& ch<='9'){
