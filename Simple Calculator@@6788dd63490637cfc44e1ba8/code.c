@@ -7,15 +7,19 @@ int main() {
         case'+':
         s=a+b;
         printf("%d",s);
+        break;
         case'-':
         s=a-b;
         printf("%d",s);
+        break;
         case'*':
         s=a*b;
         printf("%d",s);
         case'/':
+        break;
         s=a/b;
         printf("%d",s);
+        break;
     }
     return 0;
 }
