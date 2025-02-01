@@ -3,16 +3,16 @@ int main() {
     int a,b;
     char ch;
     scanf("%d %d %c", &a,&b,&ch);
-    if(c=='+'){
+    if(ch=='+'){
         printf("%d",a+b);
     }
-    else if(c=='-'){
+    else if(ch=='-'){
         printf("%d",a-b);
     }
-    else if(c=='*'){
+    else if(ch=='*'){
         printf("%d",a*b);
     }
-    else if(c=='/'){
+    else if(ch=='/'){
         if(b!=0){
             printf("%d",a/b);
         }
