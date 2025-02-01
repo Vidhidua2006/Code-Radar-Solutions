@@ -21,7 +21,7 @@ int main() {
             printf("%d",s);
             break;
         default:
-            printf("Invalid");
+            printf("Error");
             break;
     }
     return 0;
