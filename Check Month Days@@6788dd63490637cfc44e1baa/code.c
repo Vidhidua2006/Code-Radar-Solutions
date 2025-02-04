@@ -30,7 +30,7 @@ int main() {
     
     default:
     
-        printf("Invalid");
+        printf("Invalid months");
         break;
     
 
