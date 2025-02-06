@@ -30,7 +30,25 @@ int main() {
             printf("A B C D\n");
             printf("A B C D E\n");
             break;
-        default:  // This is the correct syntax for the default case
+        case 6:
+            printf("A\n");
+            printf("A B\n");
+            printf("A B C\n");
+            printf("A B C D\n");
+            printf("A B C D E\n");
+            printf("A B C D E F\n");
+            break;
+        case 7:
+            printf("A\n");
+            printf("A B\n");
+            printf("A B C\n");
+            printf("A B C D\n");
+            printf("A B C D E\n");
+            printf("A B C D E F\n");
+            printf("A B C D E F G\n");
+            break;
+        
+        default:  
             printf("Error");
             break;
     }
