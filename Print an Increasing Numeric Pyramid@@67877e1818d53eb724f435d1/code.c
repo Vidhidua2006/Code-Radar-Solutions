@@ -5,12 +5,12 @@ int main() {
     scanf("%d",&n);
     switch(n){
         case 1:{
-            printf(" 1 ");
-        break;
+            printf("1");
+            break;
         }
         case 2:
         {
-            printf("1\n");
+            printf("\t1\t");
             printf("1 2");
             break;
         }
