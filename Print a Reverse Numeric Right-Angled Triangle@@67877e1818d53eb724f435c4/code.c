@@ -3,11 +3,19 @@
 int main() {
     int n;
     scanf("%d",&n);
-    for(int i=n;i<1;i++){
-        for(int j=1;j<=i;j--){
-            printf("%d",j);
+    switch(n){
+        case 1:{
+            printf("1");
+        break;
         }
-        printf("\n");
+        case 2:
+        {
+            printf("1 2\n");
+            printf("1");
+            break;
+        }
+        
+
     }
     return 0;
 }
