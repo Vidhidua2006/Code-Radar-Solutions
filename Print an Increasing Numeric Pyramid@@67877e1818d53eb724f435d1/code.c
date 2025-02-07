@@ -10,7 +10,7 @@ int main() {
         }
         case 2:
         {
-            printf("\t1\t");
+            printf("\t1\t\n");
             printf("1 2");
             break;
         }
