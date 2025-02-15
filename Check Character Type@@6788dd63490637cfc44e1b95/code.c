@@ -5,12 +5,12 @@ int main() {
     char *vowels="aeiouAEIOU";
    scanf("%c",&ch);
    if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z')){
-        if(strchr(vowels,ch)!=NULL){
-            printf("Vowel");
-        }
-        else{
-            printf("Consonant");
-        }
+        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+        printf("Vowels");
+    }
+    else{
+        printf("consonants");
+    }
    }
     else if(ch>='0'&& ch<='9'){
         printf("Digit");
