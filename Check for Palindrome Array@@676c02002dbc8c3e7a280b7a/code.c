@@ -8,8 +8,9 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int orignal=arr[i];
-        int n=arr[i];
         int reverse=0;
+        int n=arr[i];
+        
 
     }
     while(n>0){
