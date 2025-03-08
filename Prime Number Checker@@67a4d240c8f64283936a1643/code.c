@@ -1,7 +1,10 @@
 #include<stdio.h>
 void isPrime(int n,int i){
     if(n%i==0){
-        return isPrime;
+        return 1;
+    }
+    else{
+        return 0;
     }
 }
 int main(){
