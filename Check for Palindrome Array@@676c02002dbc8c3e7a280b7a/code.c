@@ -9,12 +9,12 @@ int main(){
     for(int i=0;i<n;i++){
         int orignal=arr[i];
         int reverse=0;
-        int n=arr[i];
+        int num=arr[i];
     }
-    while(n>0){
-        R=n%10;
+    while(num>0){
+        R=num%10;
         reverse = reverse*10+R;
-        n/=10;
+        num/=10;
 
     }
     if(original==reverse){
