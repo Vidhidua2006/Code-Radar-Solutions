@@ -11,15 +11,14 @@ int main(){
         if(visited[i]==1){
             continue;
         }
-    }
+    
      count=1;
     for(int j=i+1;j<n;j++){
         if(arr[i]==arr[j]){
             count++;
             visited[j]=1;
         }
-        printf("%d %d",arr[i],count);
-        
+        printf("%d %d",arr[i],count);}
     }
     return 0;
 
