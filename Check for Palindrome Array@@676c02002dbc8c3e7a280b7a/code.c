@@ -7,11 +7,18 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
+        int original=arr[i];
+        int n=arr[i];
+        int reverse=0;
+
+    }
+    while(n>0){
         R=n%10;
         reverse=reverse*10+R;
         n/=10;
+
     }
-    if(arr[i]==reverse){
+    if(original==reverse){
         printf("YES");
     }
     else{
