@@ -10,12 +10,10 @@ int main(){
         int orignal=arr[i];
         int reverse=0;
         int n=arr[i];
-        
-
     }
     while(n>0){
         R=n%10;
-        reverse=reverse*10+R;
+        reverse = reverse*10+R;
         n/=10;
 
     }
