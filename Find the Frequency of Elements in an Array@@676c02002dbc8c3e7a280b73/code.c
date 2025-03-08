@@ -2,11 +2,14 @@
 int main(){
     int n,count=0;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],visited[n];
+    for( int i=0;i<n;i++){
+        visited[i]=0;
+    }
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int visited[n];
+     visited[n];
     for(int i=0;i<n;i++){
         if(visited[i]==1){
             continue;
