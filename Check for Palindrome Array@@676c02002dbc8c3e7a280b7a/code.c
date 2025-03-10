@@ -6,23 +6,23 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-        int orignal=arr[i];
-        int reverse=0;
-        int num=arr[i];
-    
-    while(num>0){
-        R=num%10;
-        reverse = reverse*10+R;
-        num/=10;
+        for(int i=0;i<n;i++){
+            int orignal=arr[i];
+            int reverse=0;
+            int num=arr[i];
+        
+        while(num>0){
+            R=num%10;
+            reverse = reverse*10+R;
+            num/=10;
 
-    }
-    if(original==reverse){
-        printf("YES");
-    }
-    else{
-        printf("NO");
-    }
+        }
+        if(original==reverse){
+            printf("YES");
+        }
+        else{
+            printf("NO");
+        }
     }
     return 0;
 
