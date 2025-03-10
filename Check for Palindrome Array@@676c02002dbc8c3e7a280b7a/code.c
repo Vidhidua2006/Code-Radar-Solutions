@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int orignal=arr[i];
+        int original=arr[i];
         int reverse=0;
         int num=arr[i];
         
