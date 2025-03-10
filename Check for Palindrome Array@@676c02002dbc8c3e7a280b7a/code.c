@@ -18,7 +18,7 @@ int main(){
 
         }
         if(original==reverse){
-            printf("YES");
+            printf("YES\n");
         }
         else{
             printf("NO");
