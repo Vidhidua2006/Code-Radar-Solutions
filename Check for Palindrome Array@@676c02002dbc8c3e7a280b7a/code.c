@@ -10,7 +10,7 @@ int main(){
         int orignal=arr[i];
         int reverse=0;
         int num=arr[i];
-    }
+    
     while(num>0){
         R=num%10;
         reverse = reverse*10+R;
@@ -22,6 +22,7 @@ int main(){
     }
     else{
         printf("NO");
+    }
     }
     return 0;
 
