@@ -15,7 +15,7 @@ int main(){
         else if(arr[i]>secondbig&&arr[i]<big){
             secondbig=arr[i];
         }
-        printf("%d",big);
+        printf("%d",secondbig);
     }
     return 0;
 }
