@@ -1,15 +1,19 @@
 #include<stdio.h>
 int main(){
-    int n,big;
+    int n,big,secondbig;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    big=arr[0];
+    big=secondbig=-1;
     for(int i=0;i<n;i++){
         if(arr[i]>big){
-            big=arr[i]-i;
+            secondbig=big;
+            big=arr[i];
+        }
+        else if(arr[i]>secondbig&&arr[i]<big){
+            secondbig=arr[i];
         }
         printf("%d",big);
     }
