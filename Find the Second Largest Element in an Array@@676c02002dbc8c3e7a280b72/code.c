@@ -18,10 +18,10 @@ int main(){
             secondbig=arr[i];
         }
     }
-    if (secondLargest == INT_MIN) {
+    if (secondbig == INT_MIN) {
         printf("No second largest element\n");
     } else {
-        printf("The second largest element is: %d\n", secondLargest);
+        printf("The second largest element is: %d\n", secondbig);
     }
 
     return 0;
