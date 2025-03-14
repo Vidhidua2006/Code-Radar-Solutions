@@ -6,6 +6,7 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int isPalidrome=1;
     for(int i=0;i<n;i++){
         int original=arr[i];
         int reverse=0;
@@ -17,7 +18,7 @@ int main(){
             num/=10;
 
         }
-        if(original==reverse){
+        if(isPalidrome){
             printf("YES\n");
         }
         else{
