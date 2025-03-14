@@ -21,7 +21,7 @@ int main(){
     if (secondbig == INT_MIN) {
         printf("-1");
     } else {
-        printf("The second largest element is: %d\n", secondbig);
+        printf("%d\n", secondbig);
     }
 
     return 0;
