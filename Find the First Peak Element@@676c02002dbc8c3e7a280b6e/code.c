@@ -8,10 +8,8 @@ int main(){
     }
     big=arr[0];
     for(int i=0;i<n;i++){
-        if(arr[i]>big){
-            big=arr[i];
+        if(arr[i]>arr[i-1]&&arr[i]>arr[i+1]){
+            printf("%d",&arr[i]);
         }
     }
-    printf("%d",big);
-
 }
