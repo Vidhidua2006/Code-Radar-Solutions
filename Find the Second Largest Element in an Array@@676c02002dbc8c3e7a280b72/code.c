@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    big=secondbig=-1;
+    big =INT_MIN, secondbig=INT_MIN;
     for(int i=0;i<n;i++){
         if(arr[i]>big){
             secondbig=big;
