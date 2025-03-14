@@ -11,7 +11,7 @@ int main(){
         if(arr[i]>big){
             big=arr[i];
         }
-        printf("%d",big);
     }
+    printf("%d",big);
 
 }
