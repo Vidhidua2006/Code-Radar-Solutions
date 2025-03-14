@@ -12,7 +12,7 @@ int main(){
             secondbig=big;
             big=arr[i];
         }
-        else if(arr[i]>secondbig&&arr[i]<big){
+        else if(arr[i]>secondbig&& arr[i]!=big){
             secondbig=arr[i];
         }
         printf("%d",secondbig);
