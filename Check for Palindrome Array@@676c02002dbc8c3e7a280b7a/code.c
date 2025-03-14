@@ -7,17 +7,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int isPalidrome=1;
-    for(int i=0;i<n;i++){
-        int original=arr[i];
-        int reverse=0;
-        int num=arr[i];
-        
-        while(num>0){
-            R=num%10;
-            reverse = reverse*10+R;
-            num/=10;
-
+    for(int i=0;i<n/2;i++){
+        if(arr[i]!=arr[n-i-1]){
+            isPalidrome=0;
+            break;
         }
+    }
         if(isPalidrome){
             printf("YES\n");
         }
