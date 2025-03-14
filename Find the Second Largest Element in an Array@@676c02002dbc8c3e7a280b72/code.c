@@ -17,7 +17,12 @@ int main(){
         else if(arr[i]>secondbig&& arr[i]!=big){
             secondbig=arr[i];
         }
-        printf("%d",secondbig);
     }
+    if (secondLargest == INT_MIN) {
+        printf("No second largest element\n");
+    } else {
+        printf("The second largest element is: %d\n", secondLargest);
+    }
+
     return 0;
 }
