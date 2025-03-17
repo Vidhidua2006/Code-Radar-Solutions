@@ -12,7 +12,6 @@ int main(){
     }
     int maxelement=arr[0];
     int maxfreq=0;
-    int count=0;
     for(int i=0;i<n;i++){
         if(visited[i]=-1){
             int count=1;
