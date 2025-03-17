@@ -18,7 +18,7 @@ int main(){
         for(int j=0;j<i+1;j++){
             if(arr[i]==arr[j]){
                 count++;
-                visited[j]=arr[i];
+                visited[j]=0;
             }
         
         if(count>maxele){
