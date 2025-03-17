@@ -16,7 +16,7 @@ int main(){
         if(visited[i]=-1){
             int count=1;
         }
-        for(int j=0;j<i;j++){
+        for(int j=0;j<i+1;j++){
             if(arr[i]=arr[j]){
                 count++;
                 visited[j]=0;
