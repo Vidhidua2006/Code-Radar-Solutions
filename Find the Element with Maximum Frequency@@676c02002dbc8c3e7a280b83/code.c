@@ -6,17 +6,29 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
-    int visited[i];
+    int visited[n];
     for(int i=0;i<n;i++){
-        if(visited[i]==arr[i]);
-        visited[i]=arr[i];
+        visited[i]=-1;
     }
-    for(int j=0;j<i;j++){
-        if(arr[i]==arr[j]){
-            visited[i]=arr[j];
+    int maxelement=arr[0];
+    int maxfreq=0;
+    int count=0;
+    for(int i=0;i<n;i++){
+        if(visited[i]=-1){
+            int count=1;
+        }
+        for(int j=0;j<i;j++){
+            if(arr[i]=arr[j]){
+                count++;
+                visited[j]=0;
+            }
+        }
+        if(count>maxfreq){
+            maxfreq=count;
+            maxelement=arr[i];
         }
     }
-    printf("%d",arr[j]);
+    printf("%d",maxelement);
     return 0;
 
 }
