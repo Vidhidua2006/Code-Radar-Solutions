@@ -21,7 +21,7 @@ int main(){
                 visited[j]==0;
             }
         }
-        if(count>maxele){
+        if(count>maxfreq){
             count=maxfreq;
             maxele=arr[i];
         }
