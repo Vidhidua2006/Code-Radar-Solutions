@@ -18,7 +18,7 @@ int main(){
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
-                visited[j]=0;
+                //visited[j]=0;
             }
         } 
         
@@ -27,7 +27,7 @@ int main(){
             maxele=arr[i];
 
         }
-        }
+      }
     }
     printf("%d",maxele);
     return 0;
