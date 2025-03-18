@@ -14,7 +14,7 @@ int main(){
     int maxfreq=0;
     for(int i=0;i<n;i++){
         if(visited[i]==-1){
-            int count=-1;
+            int count=1;
             for(int j=0;j<i+1;j++){
                 if(arr[i]==arr[j]){
                     count++;
@@ -25,9 +25,9 @@ int main(){
                 maxfreq=count;
                 maxele=arr[i];
             }
-            // if(visited[i]=visited[j]){
-            //     maxele=-1;
-            // }
+             if(visited[i]=visited[j]){
+                 maxele=-1;
+             }
         }
     }
     printf("%d",maxele);
