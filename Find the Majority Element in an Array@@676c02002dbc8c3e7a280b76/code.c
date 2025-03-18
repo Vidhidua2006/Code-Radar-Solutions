@@ -25,9 +25,9 @@ int main(){
                 maxfreq=count;
                 maxele=arr[i];
             }
-            if(visited[i]=visited[j]){
-                maxele=-1;
-            }
+            // if(visited[i]=visited[j]){
+            //     maxele=-1;
+            // }
         }
     }
     printf("%d",maxele);
