@@ -14,7 +14,7 @@ int main(){
     int maxfreq=0;
     for(int i=0;i<n;i++){
         if(visited[i]==-1){
-        int count=1;
+            int count=1;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
