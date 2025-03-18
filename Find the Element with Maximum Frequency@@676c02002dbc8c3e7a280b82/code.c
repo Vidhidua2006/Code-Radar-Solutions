@@ -22,7 +22,7 @@ int main(){
             }
         }
         if(count>maxfreq){
-            count=maxfreq;
+            maxfreq=count;
             maxele=arr[i];
         }
        }
