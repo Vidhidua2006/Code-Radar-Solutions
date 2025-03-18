@@ -8,7 +8,7 @@ int main(){
     }
     int visited[n];
     for(int i=0;i<n;i++){
-        int visited[i]=-1;
+         visited[i]=-1;
     }
     int maxele=arr[i];
     int maxfreq=0;
