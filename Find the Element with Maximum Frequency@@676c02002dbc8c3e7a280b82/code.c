@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<n;i++){
          visited[i]=-1;
     }
-    int maxele=arr[i];
+    int maxele=arr[0];
     int maxfreq=0;
     for(int i=0;i<n;i++){
         if(visited[i]=-1){
