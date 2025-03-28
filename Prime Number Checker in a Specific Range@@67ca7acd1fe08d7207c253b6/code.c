@@ -1,13 +1,20 @@
-#include<stdio.h>
-void printPrimesInRange(int a,int b, int isPrime=1){
-    if(a<1){
+#include<stdio.h.
+int isPrime(){
+    if(n<1){
         return 0;
     }
-    for(int i=a;i<=b,i++){
-        if(a%i==0){
-            return isPrime =0;
+    for(int i=0;i*i<=n;i++){
+        if(n%i==0){
+            return 0;
         }
     }
-    return isPrime =1;
-    printf("%d",isPrime);
+    return 1;
+}
+void printPrimesInRange(int a, int b){
+    for(int i=a;i<=b;i++){
+        if(isPrime(i)){
+            printf("%d ",i);
+        }
+    }
+
 }
