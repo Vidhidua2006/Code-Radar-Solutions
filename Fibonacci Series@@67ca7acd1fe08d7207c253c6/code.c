@@ -22,5 +22,5 @@ int main(){
         return 0;
     }
     fibonacciSeries(n);
-    rteurn 0;
+    return 0;
 }
