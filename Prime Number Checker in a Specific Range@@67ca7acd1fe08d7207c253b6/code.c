@@ -9,4 +9,5 @@ void printPrimesInRange(int a,int b, int isPrime=1){
         }
     }
     return isPrime =1;
+    printf("%d",isPrime);
 }
