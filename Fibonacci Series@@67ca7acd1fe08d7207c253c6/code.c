@@ -13,5 +13,14 @@ int fibonacciSeries(int n){
         second=next;
     }
     return next;
-
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    if(n<=0){
+        printf("Invalid input \n");
+        return 0;
+    }
+    fibonacciSeries(n);
+    rteurn 0;
 }
