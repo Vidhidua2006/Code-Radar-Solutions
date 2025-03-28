@@ -1,26 +1,12 @@
 #include<stdio.h>
 void fibonacciSeries(int n){
-   
-    
-        printf("%d ",0);
-    
-
-    int next,second=1,first=0;
-    for(int i=2;i<=n;i++){
+    printf("%d",0);
+    int first=0,second=1,next;
+    for(int i=2;i<n;i++){
         next=first+second;
         first=second;
-        printf("%d ",second);
+        printf("%d",second);
         second=next;
     }
     
 }
-// int main(){
-//     int n;
-//     scanf("%d",&n);
-//     if(n<0){
-//         printf("Invalid input \n");
-//         return 0;
-//     }
-//     fibonacciSeries(n);
-//     return 0;
-// }
