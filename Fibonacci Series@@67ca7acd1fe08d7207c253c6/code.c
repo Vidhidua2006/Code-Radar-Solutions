@@ -1,6 +1,6 @@
 #include<stdio.h>
-int fibonacciSeries(int num,int next,int first,int second ){
-    while(num>0){
+int fibonacciSeries(int n,int next,int first,int second ){
+    while(n>0){
         next=first+second;
         first=second;
         second=next;
