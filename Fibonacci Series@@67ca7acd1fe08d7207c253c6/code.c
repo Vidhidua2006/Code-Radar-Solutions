@@ -7,7 +7,7 @@ int fibonacciSeries(int n){
         return 1;
     }
     int next,second=1,first=0;
-    for(int i=2;i<=n;i++){
+    for(int i=2;i<n;i++){
         next=first+second;
         first=second;
         second=next;
