@@ -12,7 +12,7 @@ int fibonacciSeries(int n){
         first=second;
         second=next;
     }
-    return next;
+    return second;
 }
 int main(){
     int n;
