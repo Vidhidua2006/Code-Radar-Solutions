@@ -1,4 +1,4 @@
-#include<stdio.h.
+#include<stdio.h>
 int isPrime(){
     if(n<1){
         return 0;
