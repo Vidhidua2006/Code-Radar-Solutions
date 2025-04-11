@@ -1,5 +1,5 @@
 #include<stdio.h>
-int mian(){
+int main(){
     int n,p;
     scanf("%d %d",&n,&p);
     int a[n];
