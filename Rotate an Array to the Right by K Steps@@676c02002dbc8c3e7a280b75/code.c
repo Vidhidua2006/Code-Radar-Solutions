@@ -16,5 +16,10 @@ int main(){
         }
         printf("%d",a[i]);
     }
+    for(int j=0;j<p;j++){
+        printf("%d",a[j]);
+        
+    }
+    
 
 }
