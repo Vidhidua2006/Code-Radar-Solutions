@@ -8,7 +8,7 @@ int mian(){
     }
     int count=0;
     for(int i=0;i<n;i++){
-        if(p=a[i]){
+        if(p==a[i]){
             count++;
         }
     }
