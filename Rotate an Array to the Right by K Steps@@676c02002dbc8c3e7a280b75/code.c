@@ -16,6 +16,5 @@ int main(){
         }
         printf("%d",a[i]);
     }
-    for(int j=)
 
 }
